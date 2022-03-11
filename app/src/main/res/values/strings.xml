@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exchange Rates</string>
+    <string name="will_get">I will get</string>
+    <string name="clear">Clear</string>
+    <string name="have">I have</string>
+    <string name="rate_label">Exchange rate for: %1$s</string>
+    <string name="update_label">Updated: %1$s</string>
+    <string-array name="tab_titles">
+        <item>Курсы</item>
+        <item>Конвертер</item>
+    </string-array>
+
+</resources>
+
+

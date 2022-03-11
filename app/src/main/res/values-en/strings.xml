@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exchange Rates</string>
+    <string name="will_get">I will get</string>
+    <string name="clear">Clear</string>
+    <string name="have">I have</string>
+    <string name="rate_label">Exchange rate for: %1$s</string>
+    <string name="update_label">Updated: %1$s</string>
+    <string-array name="tab_titles">
+        <item>Rates</item>
+        <item>Converter</item>
+    </string-array>
+
+</resources>

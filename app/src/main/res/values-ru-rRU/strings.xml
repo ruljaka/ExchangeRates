@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Курсы валют</string>
+    <string name="have">У меня есть</string>
+    <string name="will_get">Я получу</string>
+    <string name="clear">Очистить</string>
+    <string name="rate_label">Курс валют на: %1$s</string>
+    <string name="update_label">Обновлено: %1$s</string>
+    <string-array name="tab_titles">
+        <item>Курсы</item>
+        <item>Конвертер</item>
+    </string-array>
+
+</resources>
