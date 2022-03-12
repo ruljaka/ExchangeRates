@@ -50,15 +50,17 @@ class ConverterFragment : Fragment(R.layout.converter_fragment) {
     }
 
     private fun setEditText() {
-        binding.etFrom.setText("1")
-        binding.etFrom.addTextChangedListener {
-            if (binding.etFrom.hasFocus()) {
-                calculateFrom(it)
+        with(binding) {
+            etFrom.setText("100")
+            etFrom.addTextChangedListener {
+                if (etFrom.hasFocus()) {
+                    calculateFrom(it)
+                }
             }
-        }
-        binding.etTo.addTextChangedListener {
-            if (binding.etTo.hasFocus()) {
-                calculateTo(it)
+            etTo.addTextChangedListener {
+                if (etTo.hasFocus()) {
+                    calculateTo(it)
+                }
             }
         }
     }

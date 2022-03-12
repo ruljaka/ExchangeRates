@@ -32,7 +32,6 @@ class CurrencyFragment : Fragment(R.layout.currency_fragment) {
         setupRecyclerView()
         subscribeUi()
         setSearch()
-
     }
 
     private fun subscribeUi() {
@@ -84,7 +83,7 @@ class CurrencyFragment : Fragment(R.layout.currency_fragment) {
     }
 
     private fun onListItemClick(position: Int) {
-        viewModel.indexConvertFrom = position
+        viewModel.indexConvertTo = position
         (activity as MainActivity).setCurrentTab(1)
     }
 
@@ -111,9 +110,7 @@ class CurrencyFragment : Fragment(R.layout.currency_fragment) {
                     return false
                 }
             })
-
         }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -129,5 +126,4 @@ class CurrencyFragment : Fragment(R.layout.currency_fragment) {
         }
         return super.onOptionsItemSelected(item)
     }
-
 }

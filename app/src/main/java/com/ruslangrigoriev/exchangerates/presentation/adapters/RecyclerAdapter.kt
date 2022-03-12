@@ -5,22 +5,21 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
-import com.ruslangrigoriev.exchangerates.databinding.ListItemBinding
 import com.ruslangrigoriev.exchangerates.data.dto.Currency
+import com.ruslangrigoriev.exchangerates.databinding.ListItemBinding
 import java.util.*
 
 class RecyclerAdapter(
     private val onItemClicked: (position: Int) -> Unit,
 ) : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(), Filterable {
 
+    var filteredList: MutableList<Currency> = mutableListOf()
     var dataList: MutableList<Currency> = mutableListOf()
         set(value) {
             field = value
             filteredList = dataList
             notifyDataSetChanged()
         }
-    var filteredList: MutableList<Currency> = mutableListOf()
-
 
     inner class ViewHolder(
         private val binding: ListItemBinding,
@@ -65,7 +64,6 @@ class RecyclerAdapter(
         return object : Filter() {
             override fun performFiltering(constraint: CharSequence?): FilterResults {
                 val charSearch = constraint.toString()
-
                 if (charSearch.isEmpty()) {
                     filteredList = dataList
                 } else {
@@ -89,7 +87,6 @@ class RecyclerAdapter(
                 filteredList = results?.values as MutableList<Currency>
                 notifyDataSetChanged()
             }
-
         }
     }
 }

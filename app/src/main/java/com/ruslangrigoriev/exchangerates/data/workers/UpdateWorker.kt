@@ -26,7 +26,6 @@ class UpdateWorker
     private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO
 
     override suspend fun doWork(): Result {
-        Log.d("TAG", "doWork")
         return withContext(ioDispatcher) {
             try {
                 val apiResponse = apiService.getCurrencyRates()

@@ -1,7 +1,6 @@
 package com.ruslangrigoriev.exchangerates.data.repository
 
 import android.content.Context
-import android.util.Log
 import androidx.work.*
 import com.ruslangrigoriev.exchangerates.data.dataBase.CurrencyDao
 import com.ruslangrigoriev.exchangerates.data.dto.Currency
@@ -65,6 +64,5 @@ class RepositoryImpl
             ExistingPeriodicWorkPolicy.KEEP,
             workRequest
         )
-        Log.d("TAG", "periodicUpdate")
     }
 }

@@ -24,8 +24,8 @@ class MainViewModel @Inject constructor(
     val viewState: LiveData<ResultState>
         get() = _viewState
 
-    var indexConvertFrom = 10
-    var indexConvertTo = 34
+    var indexConvertFrom = 34
+    var indexConvertTo = 10
 
     lateinit var currencyList: List<Currency>
     lateinit var charCodeList: List<String>
