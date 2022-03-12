@@ -2,8 +2,8 @@
 <p align="center">Приложение для получения курсов и конвертации валют, загружаемых с API ЦБ.</p>
 
 ## О проекте
-![product-screenshot](https://user-images.githubusercontent.com/60775844/158011401-d19e67c8-8879-4515-b534-b90f04ca4f75.jpg)
-![product-screenshot](https://user-images.githubusercontent.com/60775844/158011402-63cba751-bf0e-487b-a2a1-6a4945a42939.jpg)
+![product-screenshot](https://user-images.githubusercontent.com/60775844/158014876-932f0391-8467-467e-9937-189ae1df63ab.jpg)
+![product-screenshot](https://user-images.githubusercontent.com/60775844/158014752-579cf2ec-2d22-4508-84b9-f9aef6610987.jpg)
 
 Приложение состоит из одной активити и двух фрагментов: списка с курсом валют и конвертера. Каждые 15 минут происходит автоматическое обновление данных ЦБ 
 в формате json (https://www.cbr-xml-daily.ru/daily_json.js), есть возиожность ручного обновления кнопкой resresh.
