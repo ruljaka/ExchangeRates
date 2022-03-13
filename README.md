@@ -21,6 +21,6 @@
 * [Retrofit](https://square.github.io/retrofit/)
 * [Room](https://developer.android.com/jetpack/androidx/releases/room)
 * [WorkManager](https://developer.android.com/jetpack/androidx/releases/work)
-* [Courotines](https://developer.android.com/kotlin/coroutines?gclid=EAIaIQobChMIqZC4jo-i8gIVsAZ7Ch1rOASzEAAYASAAEgKAwvD_BwE&gclsrc=aw.ds)
+* [Coroгtines](https://developer.android.com/kotlin/coroutines?gclid=EAIaIQobChMIqZC4jo-i8gIVsAZ7Ch1rOASzEAAYASAAEgKAwvD_BwE&gclsrc=aw.ds)
 * [Dagger Hilt](https://dagger.dev/hilt)
 * [ViewBindingPropertyDelegate](https://github.com/androidbroadcast/ViewBindingPropertyDelegate)
