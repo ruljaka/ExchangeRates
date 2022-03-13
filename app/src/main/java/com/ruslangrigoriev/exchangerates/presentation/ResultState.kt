@@ -1,6 +1,6 @@
 package com.ruslangrigoriev.exchangerates.presentation
 
-import com.ruslangrigoriev.exchangerates.data.dto.CurrencyRatesInfo
+import com.ruslangrigoriev.exchangerates.domain.model.CurrencyRatesInfo
 
 sealed class ResultState {
     object Loading : ResultState()

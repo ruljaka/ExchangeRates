@@ -1,4 +1,4 @@
-package com.ruslangrigoriev.exchangerates.data.dto
+package com.ruslangrigoriev.exchangerates.domain.model
 
 
 import com.google.gson.annotations.SerializedName

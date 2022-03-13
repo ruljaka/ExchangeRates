@@ -4,10 +4,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ruslangrigoriev.exchangerates.data.dto.Currency
-import com.ruslangrigoriev.exchangerates.domain.GetCurrencyRatesUseCase
-import com.ruslangrigoriev.exchangerates.domain.PeriodicUpdateCurrencyRatesUseCase
-import com.ruslangrigoriev.exchangerates.domain.UpdateCurrencyRatesUseCase
+import com.ruslangrigoriev.exchangerates.domain.model.Currency
+import com.ruslangrigoriev.exchangerates.domain.useCases.GetCurrencyRatesUseCase
+import com.ruslangrigoriev.exchangerates.domain.useCases.PeriodicUpdateCurrencyRatesUseCase
+import com.ruslangrigoriev.exchangerates.domain.useCases.UpdateCurrencyRatesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch

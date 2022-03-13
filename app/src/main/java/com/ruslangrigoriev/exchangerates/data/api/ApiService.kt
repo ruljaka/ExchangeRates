@@ -1,6 +1,6 @@
-package com.ruslangrigoriev.exchangerates.data.network
+package com.ruslangrigoriev.exchangerates.data.api
 
-import com.ruslangrigoriev.exchangerates.data.dto.CurrencyRatesInfo
+import com.ruslangrigoriev.exchangerates.domain.model.CurrencyRatesInfo
 import retrofit2.Response
 import retrofit2.http.GET
 

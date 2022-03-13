@@ -6,8 +6,8 @@ import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.ruslangrigoriev.exchangerates.data.dataBase.CurrencyDao
-import com.ruslangrigoriev.exchangerates.data.dto.Currency
-import com.ruslangrigoriev.exchangerates.data.network.ApiService
+import com.ruslangrigoriev.exchangerates.domain.model.Currency
+import com.ruslangrigoriev.exchangerates.data.api.ApiService
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.CoroutineDispatcher

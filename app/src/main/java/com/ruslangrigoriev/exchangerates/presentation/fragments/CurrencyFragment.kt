@@ -89,6 +89,8 @@ class CurrencyFragment : Fragment(R.layout.currency_fragment) {
 
     private fun setSearch() {
         binding.searchView.apply {
+            onActionViewExpanded()
+            queryHint = "Search"
             setOnClickListener {
                 binding.searchView.isIconified = false
             }
@@ -96,8 +98,6 @@ class CurrencyFragment : Fragment(R.layout.currency_fragment) {
                 adapter.filter.filter("")
                 true
             }
-            onActionViewExpanded()
-            queryHint = "Search"
             setOnQueryTextListener(object : SearchView.OnQueryTextListener {
                 override fun onQueryTextSubmit(query: String?): Boolean {
                     return false

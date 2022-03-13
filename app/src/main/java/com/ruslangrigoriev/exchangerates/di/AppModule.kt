@@ -2,12 +2,12 @@ package com.ruslangrigoriev.exchangerates.di
 
 import android.content.Context
 import com.ruslangrigoriev.exchangerates.data.dataBase.CurrencyDao
-import com.ruslangrigoriev.exchangerates.data.network.ApiService
+import com.ruslangrigoriev.exchangerates.data.api.ApiService
 import com.ruslangrigoriev.exchangerates.data.repository.RepositoryImpl
-import com.ruslangrigoriev.exchangerates.domain.GetCurrencyRatesUseCase
-import com.ruslangrigoriev.exchangerates.domain.PeriodicUpdateCurrencyRatesUseCase
+import com.ruslangrigoriev.exchangerates.domain.useCases.GetCurrencyRatesUseCase
+import com.ruslangrigoriev.exchangerates.domain.useCases.PeriodicUpdateCurrencyRatesUseCase
 import com.ruslangrigoriev.exchangerates.domain.Repository
-import com.ruslangrigoriev.exchangerates.domain.UpdateCurrencyRatesUseCase
+import com.ruslangrigoriev.exchangerates.domain.useCases.UpdateCurrencyRatesUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,6 @@
-package com.ruslangrigoriev.exchangerates.domain
+package com.ruslangrigoriev.exchangerates.domain.useCases
+
+import com.ruslangrigoriev.exchangerates.domain.Repository
 
 class UpdateCurrencyRatesUseCase(
     private val repository: Repository

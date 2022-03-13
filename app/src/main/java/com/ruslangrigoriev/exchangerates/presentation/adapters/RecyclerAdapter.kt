@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
-import com.ruslangrigoriev.exchangerates.data.dto.Currency
+import com.ruslangrigoriev.exchangerates.domain.model.Currency
 import com.ruslangrigoriev.exchangerates.databinding.ListItemBinding
 import java.util.*
 
@@ -40,7 +40,6 @@ class RecyclerAdapter(
                 tvNominal.text = currency.nominal.toString()
                 tvValue.text = currency.value.toString()
             }
-
         }
     }
 

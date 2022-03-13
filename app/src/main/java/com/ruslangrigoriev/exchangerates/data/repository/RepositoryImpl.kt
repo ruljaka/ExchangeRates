@@ -3,9 +3,9 @@ package com.ruslangrigoriev.exchangerates.data.repository
 import android.content.Context
 import androidx.work.*
 import com.ruslangrigoriev.exchangerates.data.dataBase.CurrencyDao
-import com.ruslangrigoriev.exchangerates.data.dto.Currency
-import com.ruslangrigoriev.exchangerates.data.dto.CurrencyRatesInfo
-import com.ruslangrigoriev.exchangerates.data.network.ApiService
+import com.ruslangrigoriev.exchangerates.domain.model.Currency
+import com.ruslangrigoriev.exchangerates.domain.model.CurrencyRatesInfo
+import com.ruslangrigoriev.exchangerates.data.api.ApiService
 import com.ruslangrigoriev.exchangerates.data.workers.UpdateWorker
 import com.ruslangrigoriev.exchangerates.domain.Repository
 import com.ruslangrigoriev.exchangerates.utils.WORKER_NAME

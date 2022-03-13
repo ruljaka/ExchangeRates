@@ -1,11 +1,11 @@
-package com.ruslangrigoriev.exchangerates.data.network
+package com.ruslangrigoriev.exchangerates.data.api
 
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
-import com.ruslangrigoriev.exchangerates.data.dto.Currency
-import com.ruslangrigoriev.exchangerates.data.dto.CurrencyRatesInfo
+import com.ruslangrigoriev.exchangerates.domain.model.Currency
+import com.ruslangrigoriev.exchangerates.domain.model.CurrencyRatesInfo
 import com.ruslangrigoriev.exchangerates.utils.extGetCurrentDate
 import java.lang.reflect.Type
 

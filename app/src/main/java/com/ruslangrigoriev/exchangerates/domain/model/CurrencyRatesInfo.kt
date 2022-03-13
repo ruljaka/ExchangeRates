@@ -1,4 +1,4 @@
-package com.ruslangrigoriev.exchangerates.data.dto
+package com.ruslangrigoriev.exchangerates.domain.model
 
 
 import androidx.room.Entity
@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class CurrencyRatesInfo(
-    @PrimaryKey()
+    @PrimaryKey
     val id: Int,
     val date: String,
     val updated: String,
